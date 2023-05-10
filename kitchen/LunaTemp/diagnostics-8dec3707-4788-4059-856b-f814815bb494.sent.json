@@ -1,0 +1,181 @@
+{
+  "BuildID": "8dec3707-4788-4059-856b-f814815bb494",
+  "Command": "project:build",
+  "ProjectID": "c85fe916-4d5f-4a89-9f75-85dcdadecb7f",
+  "ProjectStateHash": "5a60ac2247f195e701a0908ebf5f3264c4dbc4964e394a1b3538f1091f0274c0",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1683620229763,
+  "EndTime": 1683620268215,
+  "PlaygroundUserID": 2348,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "develop",
+  "UnityVersion": "2021.3.24f1",
+  "LunaVersion": "5.0.0",
+  "LogCount": 7,
+  "Logs": [
+    {
+      "LogID": "1eb5e1f3-636c-47f8-8a1d-609869b5c3cf",
+      "Order": 3,
+      "Timestamp": 1683620268382,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "LP3005",
+      "Description": "You are using a Luna reserved keyword: Handle",
+      "Details": [
+        "You are using a reserved keyword: Handle for Luna. Please change the name of the field/class"
+      ],
+      "DescriptionValues": [
+        "Handle"
+      ],
+      "DetailsValues": [
+        "Handle"
+      ],
+      "LogCount": 1,
+      "LinePosition": 35,
+      "FilePath": "D:\\ProjectUnity\\PlayableAds\\KitchenFever\\kitchen\\Assets\\Joystick Pack\\Scripts\\Base\\Joystick.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "b6cd21a6-1de0-4640-9a35-2b7fa24d9d20",
+      "Order": 3,
+      "Timestamp": 1683620268399,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: Playable.InstallFullGame",
+      "Details": [
+        "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "DetailsValues": [
+        "Playable",
+        "InstallFullGame"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "0079e5c2-628c-47e3-b50f-caad486c48ac",
+      "Order": 3,
+      "Timestamp": 1683620268399,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: LifeCycle.GameEnded",
+      "Details": [
+        "You are not using the Luna API: LifeCycle.GameEnded. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "DetailsValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "3a722f8d-41fa-4ec1-9b32-bab226229ff1",
+      "Order": 3,
+      "Timestamp": 1683620268400,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "6b02b7b2-a309-49bb-a90a-22f996b07caa",
+      "Order": 3,
+      "Timestamp": 1683620268401,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "121ff7ec-d794-42c6-99a9-8d1bf6f5f51b",
+      "Order": 0,
+      "Timestamp": 1683620243932,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis > Code tab to enable code stripping"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "90a1b967-c4c5-463d-a72f-e8f376ef55bd",
+      "Order": 1,
+      "Timestamp": 1683620243944,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) {0} is not supported in the Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "D:/ProjectUnity/PlayableAds/KitchenFever/kitchen/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}
