@@ -9,7 +9,19 @@ public class CharacterBehaviour : MonoBehaviour
     public CharacterAnimator characterAnimator;   
     public DetectPlaceComponent detectPlaceComponent;
     public StackControl stackControl;
+
+    private bool isCanMove;
     
+    public bool IsCanMove {
+        get => isCanMove;
+        set => isCanMove = value;
+    }
+
+    private void Start()
+    {
+        isCanMove = true;
+    }
+
     private void FixedUpdate()
     {
         Move();
@@ -23,7 +35,7 @@ public class CharacterBehaviour : MonoBehaviour
     
     private void Move()
     {
-        if (moveByJoystick.IsCanMove())
+        if (moveByJoystick.IsCanMove() && isCanMove )
         {
             moveByJoystick.MovePhysic();
             SetLookAt();
@@ -45,6 +57,18 @@ public class CharacterBehaviour : MonoBehaviour
             moveByJoystick.StopMove();
             characterAnimator.ChangeCarryState(false);
         }
+    }
+
+    public void StartCook()
+    {
+        stackControl.gameObject.SetActive(false);
+        isCanMove = false;
+    }
+
+    public void EndCook()
+    {
+        stackControl.gameObject.SetActive(true);
+        isCanMove = true;
     }
     
     private void SetLookAt()

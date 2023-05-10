@@ -11,20 +11,16 @@ public class CollectObjectPlace : MonoBehaviour, IPlaceInteractable
     
     public void PreInteract(CharacterBehaviour characterController)
     {
-        if(stackControl.IsEmpty()) return;
     }
 
     public void OnInteract(CharacterBehaviour characterController)
     {
         if(stackControl.IsEmpty()) return;
-
-        Debug.Log("add");
         characterController.stackControl.Add(stackControl.Pop());
     }
 
     public void PostInteract(CharacterBehaviour characterController)
     {
-        if(stackControl.IsEmpty()) return;
     }
 
     public GameObject GetGameObject()

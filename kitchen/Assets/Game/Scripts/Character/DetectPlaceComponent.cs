@@ -19,6 +19,7 @@ public class DetectPlaceComponent : MonoBehaviour
     [SerializeField] private float timeDelayDetect;
     private float timeCount;
     private float timeCountDetected;
+    public float detectDelay;
     
     private void DetectLayerMask()
     {
@@ -89,7 +90,7 @@ public class DetectPlaceComponent : MonoBehaviour
         if (timeCountDetected <= Time.time)
         {
             DetectedInteract();
-            timeCountDetected = placeInteractable.GetTimeDelayOnInteract()+ Time.time;
+            timeCountDetected = detectDelay+ Time.time;
         }
     }
 

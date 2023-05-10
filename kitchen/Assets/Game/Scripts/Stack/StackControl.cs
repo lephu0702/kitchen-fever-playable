@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,7 +8,6 @@ public class StackControl : MonoBehaviour
 
     public void Add(StackObject element)
     {
-        Debug.Log("Add");
         stackObjects.Add(element);
         element.transf.parent = transform;
         element.transf.position = stackPositions[stackObjects.Count-1].position;
@@ -20,7 +17,7 @@ public class StackControl : MonoBehaviour
     {
         if (stackObjects.Count > 0)
         {
-            var s = stackObjects[^1];
+            var s = stackObjects[stackObjects.Count - 1];
             stackObjects.RemoveAt(stackObjects.Count - 1) ;
             return s;
         }

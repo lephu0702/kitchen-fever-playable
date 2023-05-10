@@ -11,6 +11,4 @@ public interface IPlaceInteractable
     public void PostInteract(CharacterBehaviour characterController);
     
     public GameObject GetGameObject();
-
-    public float GetTimeDelayOnInteract();
 }

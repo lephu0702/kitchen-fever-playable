@@ -6,8 +6,10 @@ public class CharacterAnimator : MonoBehaviour
     private readonly string keyIdle = "Idle";
     private readonly string keyRun = "Walk";
     private readonly string keyCarry = "Carry";
-    
-    private int moveSpeedHash = Animator.StringToHash("speedMove");
+    private readonly string keyCook = "cook";
+    private readonly string keyAnimCook = "Cook";
+
+    public GameObject objCook;
     
     public void ChangeAnimRun()
     {
@@ -25,5 +27,18 @@ public class CharacterAnimator : MonoBehaviour
     public void ChangeCarryState(bool isCarry)
     {
         animator.SetBool(keyCarry,isCarry);
+    }
+
+    public void PlayCook()
+    {
+        objCook.gameObject.SetActive(true);
+        animator.SetBool(keyCook, true);  
+        animator.Play(keyAnimCook, 0 ,0);
+    }
+
+    public void EndCook()
+    {
+        objCook.gameObject.SetActive(false);
+        animator.SetBool(keyCook, false);  
     }
 }
