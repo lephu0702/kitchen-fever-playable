@@ -6,36 +6,50 @@ using UnityEngine;
 public class CashierTable : MonoBehaviour, IPlaceInteractable
 {
     public CustomerController[] customerControllers;
-    public Transform[] moneys;
+    public List<StackObject> moneys;
     private bool isUsed;
+    public TutController tutController;
+    public StackControl stackMoney;
+    public bool isReady;
     
     public void PreInteract(CharacterBehaviour characterController)
     {
         if (isUsed) return;
-        
+        tutController.DoneTut();
         isUsed = true;
         foreach (var customerController in customerControllers)
         {
-            customerController.transform.DOScale(0, .15f);
+            customerController.transform.DOScale(0, .5f);
         }
 
         foreach (var money in moneys)
         {
-            money.DOMove(characterController.transform.position, .5f);
+            money.transf.position = customerControllers[0].transform.position;
+            stackMoney.Add(money);
         }
-
-        DOVirtual.DelayedCall(.5f, () =>
-        {
-            foreach (var money in moneys)
-            {
-                money.gameObject.SetActive(false);
-            }
-        });
+        isReady = false;
+        
+        characterController.IsCanMove = false;
+        DOVirtual.DelayedCall(1f, () => isReady = true);
     }
     
     public void OnInteract(CharacterBehaviour characterController)
     {
-
+        if (moneys.Count <= 0)
+        {
+            tutController.Next(4);
+            characterController.IsCanMove = true;
+            return;
+        }
+        if(!isReady) return;
+        
+        var money = moneys[moneys.Count - 1];
+        moneys.RemoveAt(moneys.Count - 1);
+        
+        money.transf.DOJump(characterController.transform.position, 1, 1, .5f).OnComplete(() =>
+        {
+            money.gameObject.SetActive(false);
+        });;
     }
     
     public void PostInteract(CharacterBehaviour characterController)

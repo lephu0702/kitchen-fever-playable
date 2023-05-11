@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class StackControl : MonoBehaviour
@@ -10,7 +11,11 @@ public class StackControl : MonoBehaviour
     {
         stackObjects.Add(element);
         element.transf.parent = transform;
-        element.transf.position = stackPositions[stackObjects.Count-1].position;
+        element.transform.DOJump(stackPositions[stackObjects.Count - 1].position, 1, 1, .5f).OnComplete(() =>
+        {
+            element.transform.rotation = stackPositions[stackObjects.Count - 1].rotation;
+        });
+        /*element.transf.position = stackPositions[stackObjects.Count-1].position;*/
     }
 
     public StackObject Pop()

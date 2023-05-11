@@ -11,9 +11,8 @@ public class CustomerAnimator : MonoBehaviour
     private readonly string keyRun = "Walk";
     private readonly string keyCarry = "Carry";
     private readonly string keyEat = "StartEat";
-    private readonly string keyStopEat = "StopEat";
-    public Action actionSit = null;
-    public Action actionEndSit = null;
+    private readonly string keyStopEat = "SitIdle";
+    public GameObject eatObj;
 
     public void ChangeAnimRun()
     {
@@ -36,29 +35,11 @@ public class CustomerAnimator : MonoBehaviour
     public void ChangeAnimStartEat()
     {
         animator.Play(keyEat);
+        eatObj.gameObject.SetActive(false);
     }
 
     public void ChangeAnimStopEat()
     {
         animator.Play(keyStopEat);
-    }
-
-    public float TimeStartEatAnim()
-    {
-        return 2;
-    }
-    public float TimeStopEatAnim()
-    {
-        return 1;
-    }
-
-    private void StartSit()
-    {
-        actionSit?.Invoke();
-    }
-
-    private void EndSit()
-    {
-        actionEndSit?.Invoke();
     }
 }

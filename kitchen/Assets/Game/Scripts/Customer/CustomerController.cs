@@ -12,6 +12,10 @@ public class CustomerController : MonoBehaviour
     public void Purchase()
     {
         customerAnimator.ChangeAnimRun();
-        transform.DOMove(purchasePos.position, timeMove);
+        transform.DOPath(new Vector3[] {
+            transform.position,
+            purchasePos.position
+        }, timeMove).SetLookAt(1).SetEase(Ease.Linear).OnComplete(()=> customerAnimator.ChangeAnimIdle());
+        //transform.DOMove(purchasePos.position, timeMove).SetEase(Ease.Linear).OnComplete(()=> customerAnimator.ChangeAnimIdle());
     }
 }

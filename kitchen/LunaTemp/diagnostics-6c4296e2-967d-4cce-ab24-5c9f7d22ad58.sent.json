@@ -1,0 +1,202 @@
+{
+  "BuildID": "6c4296e2-967d-4cce-ab24-5c9f7d22ad58",
+  "Command": "project:upload",
+  "ProjectID": "c85fe916-4d5f-4a89-9f75-85dcdadecb7f",
+  "ProjectStateHash": "0577fe8d2286ad944152d888b1bed1fa3a5a8d85f888376b9775eb01822f151f",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1683804571206,
+  "EndTime": 1683804605993,
+  "PlaygroundUserID": 2348,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2021.3.24f1",
+  "LunaVersion": "5.0.0",
+  "LogCount": 8,
+  "Logs": [
+    {
+      "LogID": "17986a4a-3ed4-41f5-b131-37036d8beda0",
+      "Order": 6,
+      "Timestamp": 1683804606251,
+      "Stage": 3,
+      "ErrorType": 1,
+      "ErrorCode": "LP3006",
+      "Description": "You are not using the Luna API: LifeCycle.GameEnded",
+      "Details": [
+        "You are not using the Luna API: LifeCycle.GameEnded. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+      ],
+      "DescriptionValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "DetailsValues": [
+        "LifeCycle",
+        "GameEnded"
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "ccf41362-845f-4532-9907-8fc2d3726dd5",
+      "Order": 6,
+      "Timestamp": 1683804606251,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "f7fad972-c0bf-4dfe-88fa-3c62f6b458b3",
+      "Order": 6,
+      "Timestamp": 1683804606251,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "c45c9df2-7192-4031-b5b7-71a4936ac402",
+      "Order": 0,
+      "Timestamp": 1683804573746,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1012",
+      "Description": "Export Error: An item with the same key has already been added. Key: Standard (UnityEngine.Shader)",
+      "Details": [
+        "Luna/Outline2",
+        ""
+      ],
+      "DescriptionValues": [
+        "An item with the same key has already been added. Key: Standard (UnityEngine.Shader)"
+      ],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "Assets/Game/Scripts/Shader/Outline2.shader",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "30a4a364-499c-4aef-a51c-6cdcb743a6ea",
+      "Order": 1,
+      "Timestamp": 1683804582093,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis > Code tab to enable code stripping"
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "b37de34d-402e-4a80-96e1-4234c2424be5",
+      "Order": 2,
+      "Timestamp": 1683804582110,
+      "Stage": 1,
+      "ErrorType": 0,
+      "ErrorCode": "LP1032",
+      "Description": "Package(s) is not supported in Luna",
+      "Details": [
+        "Currently package(s) {0} is not supported in the Luna. We recommend you to remove it and workaround it's functionality."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "com.unity.timeline"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "D:/ProjectUnity/PlayableAds/KitchenFever/kitchen/Packages\\manifest.json",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "7f554921-3cb8-4339-b0d2-835f6265b5f4",
+      "Order": 3,
+      "Timestamp": 1683804582111,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1010",
+      "Description": "Looks like a collider was scaled, this might affect performance.",
+      "Details": [
+        "Looks like Input collider on Input game object was scaled, this might affect performance."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [
+        "Input",
+        "Input"
+      ],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "a7d5a032-f0fe-4c3e-8cdc-b622c7f1c076",
+      "Order": 4,
+      "Timestamp": 1683804582111,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1005",
+      "Description": "Hidden/BlitCopy: Tags: \"LIGHTMODE\"=\"ALWAYS\"\n has problems",
+      "Details": [
+        "Hidden/BlitCopy",
+        "Hidden/Internal-ScreenSpaceShadows",
+        "Standard",
+        "Legacy Shaders/VertexLit"
+      ],
+      "DescriptionValues": [
+        "Hidden/BlitCopy: Tags: \"LIGHTMODE\"=\"ALWAYS\"\n"
+      ],
+      "DetailsValues": [],
+      "LogCount": 4,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}

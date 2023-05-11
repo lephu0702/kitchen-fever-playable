@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class DynamicJoystick : Joystick
 {
+    public CharacterBehaviour character;
+
     public float MoveThreshold { get { return moveThreshold; } set { moveThreshold = Mathf.Abs(value); } }
 
     [SerializeField] private float moveThreshold = 1;
@@ -33,6 +35,7 @@ public class DynamicJoystick : Joystick
         //ActiveVisual(false);
         //objParent.gameObject.SetActive(false);
         base.OnPointerUp(eventData);
+        character.timeNotMove = 0;
     }
 
     protected override void HandleInput(float magnitude, Vector2 normalised, Vector2 radius, Camera cam)

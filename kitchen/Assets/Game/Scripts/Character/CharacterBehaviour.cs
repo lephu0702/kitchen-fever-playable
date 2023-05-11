@@ -9,8 +9,12 @@ public class CharacterBehaviour : MonoBehaviour
     public CharacterAnimator characterAnimator;   
     public DetectPlaceComponent detectPlaceComponent;
     public StackControl stackControl;
+    public CharacterArrowTut tut;
 
     private bool isCanMove;
+    public float timeNotMove;    
+    public GameObject effTut;
+    public float timeCheckMove = 3;
     
     public bool IsCanMove {
         get => isCanMove;
@@ -19,6 +23,7 @@ public class CharacterBehaviour : MonoBehaviour
 
     private void Start()
     {
+        tut.Init();
         isCanMove = true;
     }
 
@@ -39,23 +44,23 @@ public class CharacterBehaviour : MonoBehaviour
         {
             moveByJoystick.MovePhysic();
             SetLookAt();
-            /*if (!isMoving)
-            {
-                movingEff.ForEach((eff) => eff.SetActive(true));
-                characterAnimator.ChangeAnimRun();
-                isMoving = true;
-            }*/
             characterAnimator.ChangeAnimRun();
-            characterAnimator.ChangeCarryState(false);
+            characterAnimator.ChangeCarryState(!stackControl.IsEmpty());
+            effTut.gameObject.SetActive(false);
         }
         else
         {
-            /*movingEff.ForEach((eff) => eff.SetActive(false));
-            characterAnimator.ChangeAnimIdle();
-            isMoving = false;*/
             characterAnimator.ChangeAnimIdle();
             moveByJoystick.StopMove();
-            characterAnimator.ChangeCarryState(false);
+            characterAnimator.ChangeCarryState(!stackControl.IsEmpty());
+            if (isCanMove && timeNotMove < timeCheckMove)
+            {
+                timeNotMove += Time.deltaTime;
+                if (timeNotMove >= timeCheckMove)
+                {
+                    effTut.gameObject.SetActive(true);
+                }
+            }
         }
     }
 

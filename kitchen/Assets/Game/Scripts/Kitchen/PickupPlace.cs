@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PickupPlace : MonoBehaviour, IPlaceInteractable
 {
+    public TutController tutController;
     public float timeDelay;
     public StackControl stackInput;
     public Collider col;
 
     public void PreInteract(CharacterBehaviour characterController)
     {
-        
+        characterController.IsCanMove = false;
+        tutController.DoneTut();
     }
     
     public void OnInteract(CharacterBehaviour characterController)
@@ -24,6 +26,8 @@ public class PickupPlace : MonoBehaviour, IPlaceInteractable
     
     public void PostInteract(CharacterBehaviour characterController)
     {
+        characterController.IsCanMove = true;
+        tutController.Next(1);
     }
     
     public GameObject GetGameObject()

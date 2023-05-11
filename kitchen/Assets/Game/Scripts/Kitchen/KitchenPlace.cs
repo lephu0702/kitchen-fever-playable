@@ -20,18 +20,24 @@ public class KitchenPlace : MonoBehaviour, IPlaceInteractable
     public float timeCook;
     public bool isCooking;
     public bool isCookComplete;
+    public TutController tutController;
+    public GameObject objTut;
+    public AudioSource sound;
+    public AudioClip clip;
 
     public void PreInteract(CharacterBehaviour characterController)
     {
         if (!stackInput.IsEmpty())
         {
+            tutController.DoneTut();
             var transform1 = characterController.transform;
-            transform1.position = posCook.position;
+            transform1.DOMove(posCook.position, .3f);
             transform1.rotation = posCook.rotation;
             
             characterController.StartCook();
             isCooking = false;
             isCookComplete = false;
+            objTut.gameObject.SetActive(false);
         }
     }
     
@@ -48,7 +54,6 @@ public class KitchenPlace : MonoBehaviour, IPlaceInteractable
     
     public void PostInteract(CharacterBehaviour characterController)
     {
-
     }
     
     public GameObject GetGameObject()
@@ -71,8 +76,11 @@ public class KitchenPlace : MonoBehaviour, IPlaceInteractable
             StartCook(characterController);
         });*/
         
-        f.gameObject.SetActive(false);
-        StartCook(characterController);
+        f.transf.transform.DOJump(foodSpawnPos.position, 1, 1, .5f).OnComplete(() =>
+        {
+            f.gameObject.SetActive(false);
+            StartCook(characterController);
+        });
     }
 
     private void StartCook(CharacterBehaviour characterController)
@@ -81,12 +89,14 @@ public class KitchenPlace : MonoBehaviour, IPlaceInteractable
         cookAnim.Play(keyAnimCook, 0, 0);
         characterController.characterAnimator.PlayCook();
         DOVirtual.DelayedCall(timeCook, () => CookComplete(characterController));
+        sound.PlayOneShot(clip);
     }
     
     private void CookComplete(CharacterBehaviour characterController)
     {
         isCooking = false;
         
+        sound.Stop();
         cookAnim.gameObject.SetActive(false);
         var f = Instantiate(foodProduct, foodSpawnPos.position, foodSpawnPos.rotation);
         stackOutput.Add(f);
@@ -95,11 +105,12 @@ public class KitchenPlace : MonoBehaviour, IPlaceInteractable
 
     private void EndCook(CharacterBehaviour characterController)
     {
-        if (stackInput.IsEmpty())
+        if (stackInput.IsEmpty() && !isCookComplete)
         {
             characterController.EndCook();
             characterController.characterAnimator.EndCook();
             isCookComplete = true;
+            tutController.Next(2);
         }
     }
 }

@@ -26,6 +26,8 @@ public class CharacterAnimator : MonoBehaviour
     
     public void ChangeCarryState(bool isCarry)
     {
+        if(!animator.GetBool(keyCarry) && isCarry) animator.Play("IdleCarry");
+        else if(animator.GetBool(keyCarry) && !isCarry) animator.Play("Idle");
         animator.SetBool(keyCarry,isCarry);
     }
 

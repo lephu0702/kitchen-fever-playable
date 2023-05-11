@@ -10,9 +10,12 @@ public class DinnerTable : MonoBehaviour, IPlaceInteractable
     private bool isEating;
     public float timeEat;
 
+    public TutController tutController;
+
     public void PreInteract(CharacterBehaviour characterController)
     {
         
+        tutController.DoneTut();
     }
     public void OnInteract(CharacterBehaviour characterController)
     {
@@ -49,7 +52,10 @@ public class DinnerTable : MonoBehaviour, IPlaceInteractable
         foreach (var customer in customerControllers)
         {
             customer.customerAnimator.ChangeAnimStopEat();
+            stackControl.gameObject.SetActive(false);
             customer.Purchase();
         }
+        
+        tutController.Next(3);
     }
 }
