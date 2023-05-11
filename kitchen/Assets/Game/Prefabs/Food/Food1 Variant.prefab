@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6311505403089041163, guid: 3dea8c2fbc6fb074f8b879d0d9c4fbe1, type: 3}
       propertyPath: m_Name
-      value: Food1
+      value: Food1 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dea8c2fbc6fb074f8b879d0d9c4fbe1, type: 3}
@@ -114,9 +114,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 22e3534451b025f4bb9c17226f1840d1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22e3534451b025f4bb9c17226f1840d1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9d29b6cf653251341a74baa724353430, type: 2}
+      objectReference: {fileID: 2100000, guid: 534aca00752f2234991d39bef8b9663f, type: 2}
     - target: {fileID: 919132149155446097, guid: 22e3534451b025f4bb9c17226f1840d1, type: 3}
       propertyPath: m_Name
       value: Con tom (1)
