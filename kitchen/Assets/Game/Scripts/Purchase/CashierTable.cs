@@ -12,6 +12,9 @@ public class CashierTable : MonoBehaviour, IPlaceInteractable
     public StackControl stackMoney;
     public bool isReady;
     
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+    
     public void PreInteract(CharacterBehaviour characterController)
     {
         if (isUsed) return;
@@ -46,6 +49,7 @@ public class CashierTable : MonoBehaviour, IPlaceInteractable
         var money = moneys[moneys.Count - 1];
         moneys.RemoveAt(moneys.Count - 1);
         
+        audioSource.PlayOneShot(audioClip);
         money.transf.DOJump(characterController.transform.position, 1, 1, .5f).OnComplete(() =>
         {
             money.gameObject.SetActive(false);

@@ -96,7 +96,7 @@ public class KitchenPlace : MonoBehaviour, IPlaceInteractable
     {
         isCooking = false;
         
-        sound.Stop();
+        sound.Pause();
         cookAnim.gameObject.SetActive(false);
         var f = Instantiate(foodProduct, foodSpawnPos.position, foodSpawnPos.rotation);
         stackOutput.Add(f);
