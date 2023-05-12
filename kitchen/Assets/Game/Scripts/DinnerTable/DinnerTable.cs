@@ -11,12 +11,17 @@ public class DinnerTable : MonoBehaviour, IPlaceInteractable
     public float timeEat;
 
     public TutController tutController;
+    private bool isDone;
 
     public void PreInteract(CharacterBehaviour characterController)
     {
-        
-        tutController.DoneTut();
+        if (!isDone)
+        {
+            isDone = true;
+            tutController.DoneTut();
+        }
     }
+    
     public void OnInteract(CharacterBehaviour characterController)
     {
         if (characterController.stackControl.IsEmpty())
