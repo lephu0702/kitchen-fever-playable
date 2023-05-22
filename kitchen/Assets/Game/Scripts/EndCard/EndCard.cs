@@ -7,8 +7,7 @@ public class EndCard : MonoBehaviour
 {
     public static EndCard instance;
     public GameObject endCard;
-    public Canvas canvasIngame;
-    public Canvas canvasEnd;
+
 
     private void Start()
     {
@@ -19,8 +18,6 @@ public class EndCard : MonoBehaviour
     public void ShowEndCard()
     {
         CharacterBehaviour.instance.IsCanMove = false;
-        canvasIngame.enabled = false;
-        canvasEnd.enabled = true;
         endCard.gameObject.SetActive(true);
     }
 
