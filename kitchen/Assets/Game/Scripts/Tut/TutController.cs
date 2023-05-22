@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,8 @@ public class TutController : MonoBehaviour
     public int index = -1;
 
     public CharacterArrowTut characterArrowTut;
-    
+
+
     public void Next(int index)
     {
         if(index >= objectActives.Length || index<= this.index) return;

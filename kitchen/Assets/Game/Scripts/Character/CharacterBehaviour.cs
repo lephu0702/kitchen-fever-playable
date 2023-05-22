@@ -15,6 +15,7 @@ public class CharacterBehaviour : MonoBehaviour
     public float timeNotMove;    
     public GameObject effTut;
     public float timeCheckMove = 3;
+    public static CharacterBehaviour instance;
     
     public bool IsCanMove {
         get => isCanMove;
@@ -25,6 +26,7 @@ public class CharacterBehaviour : MonoBehaviour
     {
         tut.Init();
         isCanMove = true;
+        instance = this;
     }
 
     private void FixedUpdate()
