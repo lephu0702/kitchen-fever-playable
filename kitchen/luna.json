@@ -5516,14 +5516,6 @@
                 "excluded": false
             },
             {
-                "name": "JoystickPlayerExample",
-                "excluded": true
-            },
-            {
-                "name": "JoystickSetterExample",
-                "excluded": true
-            },
-            {
                 "name": "FloatingJoystick",
                 "excluded": true
             },
@@ -5909,6 +5901,14 @@
             },
             {
                 "name": "DinnerTableSlot",
+                "excluded": true
+            },
+            {
+                "name": "pc.Debugger.Components.EditorCamera",
+                "excluded": true
+            },
+            {
+                "name": "pc.Debugger.Components.EditorGUI",
                 "excluded": true
             }
         ],
@@ -15949,7 +15949,7 @@
                     },
                     {
                         "name": "OnDidApplyAnimationProperties",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -20325,7 +20325,7 @@
                     },
                     {
                         "name": "scaleFactor#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "scaleFactor#set",
@@ -30011,6 +30011,24 @@
                     },
                     {
                         "name": "Init",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "EndCard",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowEndCard",
+                        "excluded": false
+                    },
+                    {
+                        "name": "InstallApp",
                         "excluded": false
                     }
                 ]
