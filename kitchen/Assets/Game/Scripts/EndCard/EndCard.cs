@@ -23,6 +23,7 @@ public class EndCard : MonoBehaviour
 
     public void InstallApp()
     {
+        Luna.Unity.LifeCycle.GameEnded();
         Luna.Unity.Playable.InstallFullGame();
     }
 }

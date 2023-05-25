@@ -1,4 +1,4 @@
-if ( TRACE ) { TRACE( JSON.parse( '["CharacterAnimator#init","CharacterAnimator#ChangeAnimRun","CharacterAnimator#ChangeAnimIdle","CharacterAnimator#ChangeCarryState","CharacterAnimator#PlayCook","CharacterAnimator#EndCook","CharacterArrowTut#init","CharacterArrowTut#Init","CharacterArrowTut#FixedUpdate","CharacterBehaviour#IsCanMove#get","CharacterBehaviour#IsCanMove#set","CharacterBehaviour#init","CharacterBehaviour#Start","CharacterBehaviour#FixedUpdate","CharacterBehaviour#Update","CharacterBehaviour#Move","CharacterBehaviour#StartCook","CharacterBehaviour#EndCook","CharacterBehaviour#SetLookAt","CustomerAnimator#init","CustomerAnimator#ChangeAnimRun","CustomerAnimator#ChangeAnimIdle","CustomerAnimator#ChangeCarryState","CustomerAnimator#ChangeAnimStartEat","CustomerAnimator#ChangeAnimStopEat","CustomerController#Purchase","DetectPlaceComponent#init","DetectPlaceComponent#DetectLayerMask","DetectPlaceComponent#StopDetect","DetectPlaceComponent#DetectedInteract","DetectPlaceComponent#ResetOldDetect","DetectPlaceComponent#CheckDetectByTime","DetectPlaceComponent#DetectedByTime","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DinnerTableSlot#StartAnimChair","DinnerTableSlot#PlayAnimChair","DinnerTableSlot#EndAnimChair","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#OnPointerUp","Joystick#ScreenPointToAnchoredPosition","FollowPosition#init","FollowPosition#Awake","FollowPosition#Update","JoystickPlayerExample#FixedUpdate","JoystickSetterExample#ModeChanged","JoystickSetterExample#AxisChanged","JoystickSetterExample#SnapX","JoystickSetterExample#SnapY","JoystickSetterExample#Update","MoveByJoystick#init","MoveByJoystick#MovePhysic","MoveByJoystick#LookAtMove","MoveByJoystick#SetVectorVelocity","MoveByJoystick#IsCanMove","MoveByJoystick#StopMove","MoveByJoystick#LookAtTarget","MoveByPath#Start","MoveByPath#OnEnable","MoveByPath#OnDisable","MoveByPath#Init","StackControl#Add","StackControl#Pop","StackControl#IsEmpty","TutController#init","TutController#Next","TutController#ActiveArrow","TutController#DoneTut","CashierTable#PreInteract","CashierTable#OnInteract","CashierTable#PostInteract","CashierTable#GetGameObject","CollectObjectPlace#PreInteract","CollectObjectPlace#OnInteract","CollectObjectPlace#PostInteract","CollectObjectPlace#GetGameObject","CollectObjectPlace#GetTimeDelayOnInteract","DinnerTable#PreInteract","DinnerTable#OnInteract","DinnerTable#PostInteract","DinnerTable#GetGameObject","DinnerTable#EatComplete","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","DynamicJoystick#OnDrag","DynamicJoystick#ActiveVisual","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","InstallPlace#PreInteract","InstallPlace#OnInteract","InstallPlace#PostInteract","InstallPlace#GetGameObject","KitchenPlace#init","KitchenPlace#PreInteract","KitchenPlace#OnInteract","KitchenPlace#PostInteract","KitchenPlace#GetGameObject","KitchenPlace#GetTimeDelayOnInteract","KitchenPlace#Cook","KitchenPlace#StartCook","KitchenPlace#CookComplete","KitchenPlace#EndCook","PickupPlace#PreInteract","PickupPlace#OnInteract","PickupPlace#PostInteract","PickupPlace#GetGameObject","PickupPlace#GetTimeDelayOnInteract","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput"]' ) ); }
+if ( TRACE ) { TRACE( JSON.parse( '["CharacterAnimator#init","CharacterAnimator#ChangeAnimRun","CharacterAnimator#ChangeAnimIdle","CharacterAnimator#ChangeCarryState","CharacterAnimator#PlayCook","CharacterAnimator#EndCook","CharacterArrowTut#init","CharacterArrowTut#Init","CharacterArrowTut#FixedUpdate","CharacterBehaviour#IsCanMove#get","CharacterBehaviour#IsCanMove#set","CharacterBehaviour#init","CharacterBehaviour#Start","CharacterBehaviour#FixedUpdate","CharacterBehaviour#Update","CharacterBehaviour#Move","CharacterBehaviour#StartCook","CharacterBehaviour#EndCook","CharacterBehaviour#SetLookAt","CustomerAnimator#init","CustomerAnimator#ChangeAnimRun","CustomerAnimator#ChangeAnimIdle","CustomerAnimator#ChangeCarryState","CustomerAnimator#ChangeAnimStartEat","CustomerAnimator#ChangeAnimStopEat","CustomerController#Purchase","DetectPlaceComponent#init","DetectPlaceComponent#DetectLayerMask","DetectPlaceComponent#StopDetect","DetectPlaceComponent#DetectedInteract","DetectPlaceComponent#ResetOldDetect","DetectPlaceComponent#CheckDetectByTime","DetectPlaceComponent#DetectedByTime","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForCompletion#ctor","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForElapsedLoops#ctor","DG.Tweening.DOTweenCYInstruction.WaitForKill#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForKill#ctor","DG.Tweening.DOTweenCYInstruction.WaitForPosition#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForPosition#ctor","DG.Tweening.DOTweenCYInstruction.WaitForRewind#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForRewind#ctor","DG.Tweening.DOTweenCYInstruction.WaitForStart#keepWaiting#get","DG.Tweening.DOTweenCYInstruction.WaitForStart#ctor","DG.Tweening.DOTweenModuleAudio#DOFade","DG.Tweening.DOTweenModuleAudio#DOPitch","DG.Tweening.DOTweenModuleAudio#DOSetFloat","DG.Tweening.DOTweenModuleAudio#DOComplete","DG.Tweening.DOTweenModuleAudio#DOKill","DG.Tweening.DOTweenModuleAudio#DOFlip","DG.Tweening.DOTweenModuleAudio#DOGoto","DG.Tweening.DOTweenModuleAudio#DOPause","DG.Tweening.DOTweenModuleAudio#DOPlay","DG.Tweening.DOTweenModuleAudio#DOPlayBackwards","DG.Tweening.DOTweenModuleAudio#DOPlayForward","DG.Tweening.DOTweenModuleAudio#DORestart","DG.Tweening.DOTweenModuleAudio#DORewind","DG.Tweening.DOTweenModuleAudio#DOSmoothRewind","DG.Tweening.DOTweenModuleAudio#DOTogglePause","DG.Tweening.DOTweenModulePhysics#DOMove","DG.Tweening.DOTweenModulePhysics#DOMoveX","DG.Tweening.DOTweenModulePhysics#DOMoveY","DG.Tweening.DOTweenModulePhysics#DOMoveZ","DG.Tweening.DOTweenModulePhysics#DORotate","DG.Tweening.DOTweenModulePhysics#DOLookAt","DG.Tweening.DOTweenModulePhysics#DOJump","DG.Tweening.DOTweenModulePhysics#DOPath","DG.Tweening.DOTweenModulePhysics#DOPath$1","DG.Tweening.DOTweenModulePhysics#DOLocalPath","DG.Tweening.DOTweenModulePhysics#DOLocalPath$1","DG.Tweening.DOTweenModulePhysics2D#DOMove","DG.Tweening.DOTweenModulePhysics2D#DOMoveX","DG.Tweening.DOTweenModulePhysics2D#DOMoveY","DG.Tweening.DOTweenModulePhysics2D#DORotate","DG.Tweening.DOTweenModulePhysics2D#DOJump","DG.Tweening.DOTweenModulePhysics2D#DOPath","DG.Tweening.DOTweenModulePhysics2D#DOPath$1","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath","DG.Tweening.DOTweenModulePhysics2D#DOLocalPath$1","DG.Tweening.DOTweenModuleSprite#DOColor","DG.Tweening.DOTweenModuleSprite#DOFade","DG.Tweening.DOTweenModuleSprite#DOGradientColor","DG.Tweening.DOTweenModuleSprite#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOFade","DG.Tweening.DOTweenModuleUI#DOFade$1","DG.Tweening.DOTweenModuleUI#DOFade$2","DG.Tweening.DOTweenModuleUI#DOFade$3","DG.Tweening.DOTweenModuleUI#DOFade$4","DG.Tweening.DOTweenModuleUI#DOColor","DG.Tweening.DOTweenModuleUI#DOColor$1","DG.Tweening.DOTweenModuleUI#DOColor$2","DG.Tweening.DOTweenModuleUI#DOColor$3","DG.Tweening.DOTweenModuleUI#DOFillAmount","DG.Tweening.DOTweenModuleUI#DOGradientColor","DG.Tweening.DOTweenModuleUI#DOFlexibleSize","DG.Tweening.DOTweenModuleUI#DOMinSize","DG.Tweening.DOTweenModuleUI#DOPreferredSize","DG.Tweening.DOTweenModuleUI#DOScale","DG.Tweening.DOTweenModuleUI#DOAnchorPos","DG.Tweening.DOTweenModuleUI#DOAnchorPosX","DG.Tweening.DOTweenModuleUI#DOAnchorPosY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3D","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DX","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DY","DG.Tweening.DOTweenModuleUI#DOAnchorPos3DZ","DG.Tweening.DOTweenModuleUI#DOAnchorMax","DG.Tweening.DOTweenModuleUI#DOAnchorMin","DG.Tweening.DOTweenModuleUI#DOPivot","DG.Tweening.DOTweenModuleUI#DOPivotX","DG.Tweening.DOTweenModuleUI#DOPivotY","DG.Tweening.DOTweenModuleUI#DOSizeDelta","DG.Tweening.DOTweenModuleUI#DOPunchAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos","DG.Tweening.DOTweenModuleUI#DOShakeAnchorPos$1","DG.Tweening.DOTweenModuleUI#DOJumpAnchorPos","DG.Tweening.DOTweenModuleUI#DONormalizedPos","DG.Tweening.DOTweenModuleUI#DOHorizontalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOVerticalNormalizedPos","DG.Tweening.DOTweenModuleUI#DOValue","DG.Tweening.DOTweenModuleUI#DOCounter","DG.Tweening.DOTweenModuleUI#DOText","DG.Tweening.DOTweenModuleUI#DOBlendableColor","DG.Tweening.DOTweenModuleUI#DOBlendableColor$1","DG.Tweening.DOTweenModuleUI#DOBlendableColor$2","DG.Tweening.DOTweenModuleUI#DOShapeCircle","DG.Tweening.DOTweenModuleUI.Utils#SwitchToRectTransform","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor","DG.Tweening.DOTweenModuleUnityVersion#DOGradientColor$1","DG.Tweening.DOTweenModuleUnityVersion#WaitForCompletion","DG.Tweening.DOTweenModuleUnityVersion#WaitForRewind","DG.Tweening.DOTweenModuleUnityVersion#WaitForKill","DG.Tweening.DOTweenModuleUnityVersion#WaitForElapsedLoops","DG.Tweening.DOTweenModuleUnityVersion#WaitForPosition","DG.Tweening.DOTweenModuleUnityVersion#WaitForStart","DG.Tweening.DOTweenModuleUnityVersion#DOOffset","DG.Tweening.DOTweenModuleUnityVersion#DOTiling","DG.Tweening.DOTweenModuleUtils#Init","DG.Tweening.DOTweenModuleUtils#Preserver","DG.Tweening.DOTweenModuleUtils.Physics#SetOrientationOnPath","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody2D","DG.Tweening.DOTweenModuleUtils.Physics#HasRigidbody","DG.Tweening.DOTweenModuleUtils.Physics#CreateDOTweenPathTween","DinnerTableSlot#StartAnimChair","DinnerTableSlot#PlayAnimChair","DinnerTableSlot#EndAnimChair","Joystick#Horizontal#get","Joystick#Vertical#get","Joystick#Direction#get","Joystick#HandleRange#get","Joystick#HandleRange#set","Joystick#DeadZone#get","Joystick#DeadZone#set","Joystick#AxisOptions#get","Joystick#AxisOptions#set","Joystick#SnapX#get","Joystick#SnapX#set","Joystick#SnapY#get","Joystick#SnapY#set","Joystick#init","Joystick#Start","Joystick#OnPointerDown","Joystick#OnDrag","Joystick#HandleInput","Joystick#FormatInput","Joystick#SnapFloat","Joystick#OnPointerUp","Joystick#ScreenPointToAnchoredPosition","EndCard#Start","EndCard#ShowEndCard","EndCard#InstallApp","FollowPosition#init","FollowPosition#Awake","FollowPosition#Update","MoveByJoystick#init","MoveByJoystick#MovePhysic","MoveByJoystick#LookAtMove","MoveByJoystick#SetVectorVelocity","MoveByJoystick#IsCanMove","MoveByJoystick#StopMove","MoveByJoystick#LookAtTarget","MoveByPath#Start","MoveByPath#OnEnable","MoveByPath#OnDisable","MoveByPath#Init","StackControl#Add","StackControl#Pop","StackControl#IsEmpty","TutController#init","TutController#Next","TutController#ActiveArrow","TutController#DoneTut","CashierTable#PreInteract","CashierTable#OnInteract","CashierTable#PostInteract","CashierTable#GetGameObject","CollectObjectPlace#PreInteract","CollectObjectPlace#OnInteract","CollectObjectPlace#PostInteract","CollectObjectPlace#GetGameObject","CollectObjectPlace#GetTimeDelayOnInteract","DinnerTable#PreInteract","DinnerTable#OnInteract","DinnerTable#PostInteract","DinnerTable#GetGameObject","DinnerTable#EatComplete","DynamicJoystick#MoveThreshold#get","DynamicJoystick#MoveThreshold#set","DynamicJoystick#init","DynamicJoystick#Start","DynamicJoystick#OnPointerDown","DynamicJoystick#OnPointerUp","DynamicJoystick#HandleInput","DynamicJoystick#OnDrag","DynamicJoystick#ActiveVisual","FloatingJoystick#Start","FloatingJoystick#OnPointerDown","FloatingJoystick#OnPointerUp","InstallPlace#PreInteract","InstallPlace#OnInteract","InstallPlace#PostInteract","InstallPlace#GetGameObject","KitchenPlace#init","KitchenPlace#PreInteract","KitchenPlace#OnInteract","KitchenPlace#PostInteract","KitchenPlace#GetGameObject","KitchenPlace#GetTimeDelayOnInteract","KitchenPlace#Cook","KitchenPlace#StartCook","KitchenPlace#CookComplete","KitchenPlace#EndCook","PickupPlace#PreInteract","PickupPlace#OnInteract","PickupPlace#PostInteract","PickupPlace#GetGameObject","PickupPlace#GetTimeDelayOnInteract","VariableJoystick#MoveThreshold#get","VariableJoystick#MoveThreshold#set","VariableJoystick#init","VariableJoystick#SetMode","VariableJoystick#Start","VariableJoystick#OnPointerDown","VariableJoystick#OnPointerUp","VariableJoystick#HandleInput"]' ) ); }
 /**
  * @compiler Bridge.NET 17.9.30-luna
  */
@@ -153,6 +153,11 @@ if ( TRACE ) { TRACE( "CharacterArrowTut#FixedUpdate", this ); }
     /*CharacterBehaviour start.*/
     Bridge.define("CharacterBehaviour", {
         inherits: [UnityEngine.MonoBehaviour],
+        statics: {
+            fields: {
+                instance: null
+            }
+        },
         fields: {
             moveByJoystick: null,
             characterAnimator: null,
@@ -192,6 +197,7 @@ if ( TRACE ) { TRACE( "CharacterBehaviour#Start", this ); }
 
                 this.tut.Init();
                 this.isCanMove = true;
+                CharacterBehaviour.instance = this;
             },
             /*CharacterBehaviour.Start end.*/
 
@@ -2560,6 +2566,50 @@ if ( TRACE ) { TRACE( "Joystick#ScreenPointToAnchoredPosition", this ); }
     });
     /*Joystick end.*/
 
+    /*EndCard start.*/
+    Bridge.define("EndCard", {
+        inherits: [UnityEngine.MonoBehaviour],
+        statics: {
+            fields: {
+                instance: null
+            }
+        },
+        fields: {
+            endCard: null
+        },
+        methods: {
+            /*EndCard.Start start.*/
+            Start: function () {
+if ( TRACE ) { TRACE( "EndCard#Start", this ); }
+
+                this.endCard.gameObject.SetActive(false);
+                EndCard.instance = this;
+            },
+            /*EndCard.Start end.*/
+
+            /*EndCard.ShowEndCard start.*/
+            ShowEndCard: function () {
+if ( TRACE ) { TRACE( "EndCard#ShowEndCard", this ); }
+
+                CharacterBehaviour.instance.IsCanMove = false;
+                this.endCard.gameObject.SetActive(true);
+            },
+            /*EndCard.ShowEndCard end.*/
+
+            /*EndCard.InstallApp start.*/
+            InstallApp: function () {
+if ( TRACE ) { TRACE( "EndCard#InstallApp", this ); }
+
+                Luna.Unity.LifeCycle.GameEnded();
+                Luna.Unity.Playable.InstallFullGame();
+            },
+            /*EndCard.InstallApp end.*/
+
+
+        }
+    });
+    /*EndCard end.*/
+
     /*FollowPosition start.*/
     Bridge.define("FollowPosition", {
         inherits: [UnityEngine.MonoBehaviour],
@@ -2603,107 +2653,6 @@ if ( TRACE ) { TRACE( "FollowPosition#Update", this ); }
         inherits: [UnityEngine.MonoBehaviour]
     });
     /*IAmAnEmptyScriptJustToMakeCodelessProjectsCompileProperty end.*/
-
-    /*JoystickPlayerExample start.*/
-    Bridge.define("JoystickPlayerExample", {
-        inherits: [UnityEngine.MonoBehaviour],
-        fields: {
-            speed: 0,
-            variableJoystick: null,
-            rb: null
-        },
-        methods: {
-            /*JoystickPlayerExample.FixedUpdate start.*/
-            FixedUpdate: function () {
-if ( TRACE ) { TRACE( "JoystickPlayerExample#FixedUpdate", this ); }
-
-                var direction = new pc.Vec3( 0, 0, 1 ).clone().scale( this.variableJoystick.Vertical ).add( pc.Vec3.RIGHT.clone().clone().scale( this.variableJoystick.Horizontal ) );
-                this.rb.AddForce$1(direction.$clone().clone().scale( this.speed ).clone().scale( UnityEngine.Time.fixedDeltaTime ), UnityEngine.ForceMode.VelocityChange);
-            },
-            /*JoystickPlayerExample.FixedUpdate end.*/
-
-
-        }
-    });
-    /*JoystickPlayerExample end.*/
-
-    /*JoystickSetterExample start.*/
-    Bridge.define("JoystickSetterExample", {
-        inherits: [UnityEngine.MonoBehaviour],
-        fields: {
-            variableJoystick: null,
-            valueText: null,
-            background: null,
-            axisSprites: null
-        },
-        methods: {
-            /*JoystickSetterExample.ModeChanged start.*/
-            ModeChanged: function (index) {
-if ( TRACE ) { TRACE( "JoystickSetterExample#ModeChanged", this ); }
-
-                switch (index) {
-                    case 0: 
-                        this.variableJoystick.SetMode(JoystickType.Fixed);
-                        break;
-                    case 1: 
-                        this.variableJoystick.SetMode(JoystickType.Floating);
-                        break;
-                    case 2: 
-                        this.variableJoystick.SetMode(JoystickType.Dynamic);
-                        break;
-                }
-            },
-            /*JoystickSetterExample.ModeChanged end.*/
-
-            /*JoystickSetterExample.AxisChanged start.*/
-            AxisChanged: function (index) {
-if ( TRACE ) { TRACE( "JoystickSetterExample#AxisChanged", this ); }
-
-                switch (index) {
-                    case 0: 
-                        this.variableJoystick.AxisOptions = AxisOptions.Both;
-                        this.background.sprite = this.axisSprites[index];
-                        break;
-                    case 1: 
-                        this.variableJoystick.AxisOptions = AxisOptions.Horizontal;
-                        this.background.sprite = this.axisSprites[index];
-                        break;
-                    case 2: 
-                        this.variableJoystick.AxisOptions = AxisOptions.Vertical;
-                        this.background.sprite = this.axisSprites[index];
-                        break;
-                }
-            },
-            /*JoystickSetterExample.AxisChanged end.*/
-
-            /*JoystickSetterExample.SnapX start.*/
-            SnapX: function (value) {
-if ( TRACE ) { TRACE( "JoystickSetterExample#SnapX", this ); }
-
-                this.variableJoystick.SnapX = value;
-            },
-            /*JoystickSetterExample.SnapX end.*/
-
-            /*JoystickSetterExample.SnapY start.*/
-            SnapY: function (value) {
-if ( TRACE ) { TRACE( "JoystickSetterExample#SnapY", this ); }
-
-                this.variableJoystick.SnapY = value;
-            },
-            /*JoystickSetterExample.SnapY end.*/
-
-            /*JoystickSetterExample.Update start.*/
-            Update: function () {
-if ( TRACE ) { TRACE( "JoystickSetterExample#Update", this ); }
-
-                this.valueText.text = "Current Value: " + (Bridge.toString(this.variableJoystick.Direction) || "");
-            },
-            /*JoystickSetterExample.Update end.*/
-
-
-        }
-    });
-    /*JoystickSetterExample end.*/
 
     /*JoystickType start.*/
     Bridge.define("JoystickType", {
@@ -2984,7 +2933,9 @@ if ( TRACE ) { TRACE( "TutController#DoneTut", this ); }
             isUsed: false,
             tutController: null,
             stackMoney: null,
-            isReady: false
+            isReady: false,
+            audioSource: null,
+            audioClip: null
         },
         alias: [
             "PreInteract", "IPlaceInteractable$PreInteract",
@@ -3045,6 +2996,7 @@ if ( TRACE ) { TRACE( "CashierTable#OnInteract", this ); }
                 } else if (this.isReady) {
                     var money = this.moneys.getItem(((this.moneys.Count - 1) | 0));
                     this.moneys.removeAt(((this.moneys.Count - 1) | 0));
+                    this.audioSource.PlayOneShot(this.audioClip);
                     DG.Tweening.TweenSettingsExtensions.OnComplete(DG.Tweening.Sequence, DG.Tweening.ShortcutExtensions.DOJump(money.transf, characterController.transform.position.$clone(), 1.0, 1, 0.5), function () {
                         money.gameObject.SetActive(false);
                     });
@@ -3152,7 +3104,8 @@ if ( TRACE ) { TRACE( "CollectObjectPlace#GetTimeDelayOnInteract", this ); }
             stackControl: null,
             isEating: false,
             timeEat: 0,
-            tutController: null
+            tutController: null,
+            isDone: false
         },
         alias: [
             "PreInteract", "IPlaceInteractable$PreInteract",
@@ -3165,7 +3118,10 @@ if ( TRACE ) { TRACE( "CollectObjectPlace#GetTimeDelayOnInteract", this ); }
             PreInteract: function (characterController) {
 if ( TRACE ) { TRACE( "DinnerTable#PreInteract", this ); }
 
-                this.tutController.DoneTut();
+                if (!this.isDone) {
+                    this.isDone = true;
+                    this.tutController.DoneTut();
+                }
             },
             /*DinnerTable.PreInteract end.*/
 
@@ -3405,7 +3361,7 @@ if ( TRACE ) { TRACE( "FloatingJoystick#OnPointerUp", this ); }
             PreInteract: function (characterController) {
 if ( TRACE ) { TRACE( "InstallPlace#PreInteract", this ); }
 
-                UnityEngine.Debug.Log$1("install");
+                Luna.Unity.LifeCycle.GameEnded();
                 Luna.Unity.Playable.InstallFullGame();
             },
             /*InstallPlace.PreInteract end.*/
@@ -3553,7 +3509,7 @@ if ( TRACE ) { TRACE( "KitchenPlace#StartCook", this ); }
 if ( TRACE ) { TRACE( "KitchenPlace#CookComplete", this ); }
 
                 this.isCooking = false;
-                this.sound.Stop();
+                this.sound.Pause();
                 this.cookAnim.gameObject.SetActive(false);
                 var f = UnityEngine.Object.Instantiate$2(StackObject, this.foodProduct, this.foodSpawnPos.position.$clone(), this.foodSpawnPos.rotation.$clone());
                 this.stackOutput.Add(f);
@@ -3756,7 +3712,7 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     /*AxisOptions end.*/
 
     /*CashierTable start.*/
-    $m("CashierTable", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetGameObject","t":8,"sn":"GetGameObject","rt":$n[0].GameObject},{"a":2,"n":"OnInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"OnInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"PostInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"PostInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"PreInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"PreInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"customerControllers","t":4,"rt":System.Array.type(CustomerController),"sn":"customerControllers"},{"a":2,"n":"isReady","t":4,"rt":$n[1].Boolean,"sn":"isReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isUsed","t":4,"rt":$n[1].Boolean,"sn":"isUsed","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"moneys","t":4,"rt":$n[2].List$1(StackObject),"sn":"moneys"},{"a":2,"n":"stackMoney","t":4,"rt":StackControl,"sn":"stackMoney"},{"a":2,"n":"tutController","t":4,"rt":TutController,"sn":"tutController"}]}; }, $n);
+    $m("CashierTable", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"GetGameObject","t":8,"sn":"GetGameObject","rt":$n[0].GameObject},{"a":2,"n":"OnInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"OnInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"PostInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"PostInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"PreInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"PreInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"audioClip","t":4,"rt":$n[0].AudioClip,"sn":"audioClip"},{"a":2,"n":"audioSource","t":4,"rt":$n[0].AudioSource,"sn":"audioSource"},{"a":2,"n":"customerControllers","t":4,"rt":System.Array.type(CustomerController),"sn":"customerControllers"},{"a":2,"n":"isReady","t":4,"rt":$n[1].Boolean,"sn":"isReady","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isUsed","t":4,"rt":$n[1].Boolean,"sn":"isUsed","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"moneys","t":4,"rt":$n[2].List$1(StackObject),"sn":"moneys"},{"a":2,"n":"stackMoney","t":4,"rt":StackControl,"sn":"stackMoney"},{"a":2,"n":"tutController","t":4,"rt":TutController,"sn":"tutController"}]}; }, $n);
     /*CashierTable end.*/
 
     /*CharacterAnimator start.*/
@@ -3768,7 +3724,7 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     /*CharacterArrowTut end.*/
 
     /*CharacterBehaviour start.*/
-    $m("CharacterBehaviour", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"EndCook","t":8,"sn":"EndCook","rt":$n[1].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[1].Void},{"a":1,"n":"Move","t":8,"sn":"Move","rt":$n[1].Void},{"a":1,"n":"SetLookAt","t":8,"sn":"SetLookAt","rt":$n[1].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[1].Void},{"a":2,"n":"StartCook","t":8,"sn":"StartCook","rt":$n[1].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[1].Void},{"a":2,"n":"IsCanMove","t":16,"rt":$n[1].Boolean,"g":{"a":2,"n":"get_IsCanMove","t":8,"rt":$n[1].Boolean,"fg":"IsCanMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsCanMove","t":8,"p":[$n[1].Boolean],"rt":$n[1].Void,"fs":"IsCanMove"},"fn":"IsCanMove"},{"a":2,"n":"characterAnimator","t":4,"rt":CharacterAnimator,"sn":"characterAnimator"},{"a":2,"n":"detectPlaceComponent","t":4,"rt":DetectPlaceComponent,"sn":"detectPlaceComponent"},{"a":2,"n":"effTut","t":4,"rt":$n[0].GameObject,"sn":"effTut"},{"a":1,"n":"isCanMove","t":4,"rt":$n[1].Boolean,"sn":"isCanMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"moveByJoystick","t":4,"rt":MoveByJoystick,"sn":"moveByJoystick"},{"a":2,"n":"stackControl","t":4,"rt":StackControl,"sn":"stackControl"},{"a":2,"n":"timeCheckMove","t":4,"rt":$n[1].Single,"sn":"timeCheckMove","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"timeNotMove","t":4,"rt":$n[1].Single,"sn":"timeNotMove","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"tut","t":4,"rt":CharacterArrowTut,"sn":"tut"}]}; }, $n);
+    $m("CharacterBehaviour", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"EndCook","t":8,"sn":"EndCook","rt":$n[1].Void},{"a":1,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[1].Void},{"a":1,"n":"Move","t":8,"sn":"Move","rt":$n[1].Void},{"a":1,"n":"SetLookAt","t":8,"sn":"SetLookAt","rt":$n[1].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[1].Void},{"a":2,"n":"StartCook","t":8,"sn":"StartCook","rt":$n[1].Void},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[1].Void},{"a":2,"n":"IsCanMove","t":16,"rt":$n[1].Boolean,"g":{"a":2,"n":"get_IsCanMove","t":8,"rt":$n[1].Boolean,"fg":"IsCanMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_IsCanMove","t":8,"p":[$n[1].Boolean],"rt":$n[1].Void,"fs":"IsCanMove"},"fn":"IsCanMove"},{"a":2,"n":"characterAnimator","t":4,"rt":CharacterAnimator,"sn":"characterAnimator"},{"a":2,"n":"detectPlaceComponent","t":4,"rt":DetectPlaceComponent,"sn":"detectPlaceComponent"},{"a":2,"n":"effTut","t":4,"rt":$n[0].GameObject,"sn":"effTut"},{"a":2,"n":"instance","is":true,"t":4,"rt":CharacterBehaviour,"sn":"instance"},{"a":1,"n":"isCanMove","t":4,"rt":$n[1].Boolean,"sn":"isCanMove","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"moveByJoystick","t":4,"rt":MoveByJoystick,"sn":"moveByJoystick"},{"a":2,"n":"stackControl","t":4,"rt":StackControl,"sn":"stackControl"},{"a":2,"n":"timeCheckMove","t":4,"rt":$n[1].Single,"sn":"timeCheckMove","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"timeNotMove","t":4,"rt":$n[1].Single,"sn":"timeNotMove","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"tut","t":4,"rt":CharacterArrowTut,"sn":"tut"}]}; }, $n);
     /*CharacterBehaviour end.*/
 
     /*CollectObjectPlace start.*/
@@ -3788,7 +3744,7 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     /*DetectPlaceComponent end.*/
 
     /*DinnerTable start.*/
-    $m("DinnerTable", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"EatComplete","t":8,"sn":"EatComplete","rt":$n[1].Void},{"a":2,"n":"GetGameObject","t":8,"sn":"GetGameObject","rt":$n[0].GameObject},{"a":2,"n":"OnInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"OnInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"PostInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"PostInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"PreInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"PreInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"customerControllers","t":4,"rt":System.Array.type(CustomerController),"sn":"customerControllers"},{"a":1,"n":"isEating","t":4,"rt":$n[1].Boolean,"sn":"isEating","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"stackControl","t":4,"rt":StackControl,"sn":"stackControl"},{"a":2,"n":"timeEat","t":4,"rt":$n[1].Single,"sn":"timeEat","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"tutController","t":4,"rt":TutController,"sn":"tutController"}]}; }, $n);
+    $m("DinnerTable", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"EatComplete","t":8,"sn":"EatComplete","rt":$n[1].Void},{"a":2,"n":"GetGameObject","t":8,"sn":"GetGameObject","rt":$n[0].GameObject},{"a":2,"n":"OnInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"OnInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"PostInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"PostInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"PreInteract","t":8,"pi":[{"n":"characterController","pt":CharacterBehaviour,"ps":0}],"sn":"PreInteract","rt":$n[1].Void,"p":[CharacterBehaviour]},{"a":2,"n":"customerControllers","t":4,"rt":System.Array.type(CustomerController),"sn":"customerControllers"},{"a":1,"n":"isDone","t":4,"rt":$n[1].Boolean,"sn":"isDone","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":1,"n":"isEating","t":4,"rt":$n[1].Boolean,"sn":"isEating","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"a":2,"n":"stackControl","t":4,"rt":StackControl,"sn":"stackControl"},{"a":2,"n":"timeEat","t":4,"rt":$n[1].Single,"sn":"timeEat","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"tutController","t":4,"rt":TutController,"sn":"tutController"}]}; }, $n);
     /*DinnerTable end.*/
 
     /*DinnerTableSlot start.*/
@@ -3798,6 +3754,10 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     /*DynamicJoystick start.*/
     $m("DynamicJoystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"ActiveVisual","t":8,"pi":[{"n":"isActive","pt":$n[1].Boolean,"ps":0}],"sn":"ActiveVisual","rt":$n[1].Void,"p":[$n[1].Boolean]},{"ov":true,"a":3,"n":"HandleInput","t":8,"pi":[{"n":"magnitude","pt":$n[1].Single,"ps":0},{"n":"normalised","pt":$n[0].Vector2,"ps":1},{"n":"radius","pt":$n[0].Vector2,"ps":2},{"n":"cam","pt":$n[0].Camera,"ps":3}],"sn":"HandleInput","rt":$n[1].Void,"p":[$n[1].Single,$n[0].Vector2,$n[0].Vector2,$n[0].Camera]},{"ov":true,"a":2,"n":"OnDrag","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[1].Void,"p":[$n[3].PointerEventData]},{"ov":true,"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[1].Void,"p":[$n[3].PointerEventData]},{"ov":true,"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[1].Void,"p":[$n[3].PointerEventData]},{"ov":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[1].Void},{"a":2,"n":"MoveThreshold","t":16,"rt":$n[1].Single,"g":{"a":2,"n":"get_MoveThreshold","t":8,"rt":$n[1].Single,"fg":"MoveThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_MoveThreshold","t":8,"p":[$n[1].Single],"rt":$n[1].Void,"fs":"MoveThreshold"},"fn":"MoveThreshold"},{"a":2,"n":"character","t":4,"rt":CharacterBehaviour,"sn":"character"},{"a":2,"n":"imgBG","t":4,"rt":$n[4].Image,"sn":"imgBG"},{"a":2,"n":"imgHandle","t":4,"rt":$n[4].Image,"sn":"imgHandle"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"moveThreshold","t":4,"rt":$n[1].Single,"sn":"moveThreshold","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"off","t":4,"rt":$n[0].Color,"sn":"off"},{"a":2,"n":"on","t":4,"rt":$n[0].Color,"sn":"on"}]}; }, $n);
     /*DynamicJoystick end.*/
+
+    /*EndCard start.*/
+    $m("EndCard", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"InstallApp","t":8,"sn":"InstallApp","rt":$n[1].Void},{"a":2,"n":"ShowEndCard","t":8,"sn":"ShowEndCard","rt":$n[1].Void},{"a":1,"n":"Start","t":8,"sn":"Start","rt":$n[1].Void},{"a":2,"n":"endCard","t":4,"rt":$n[0].GameObject,"sn":"endCard"},{"a":2,"n":"instance","is":true,"t":4,"rt":EndCard,"sn":"instance"}]}; }, $n);
+    /*EndCard end.*/
 
     /*FixedJoystick start.*/
     $m("FixedJoystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"}]}; }, $n);
@@ -3822,14 +3782,6 @@ if ( TRACE ) { TRACE( "VariableJoystick#HandleInput", this ); }
     /*Joystick start.*/
     $m("Joystick", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":1,"n":"FormatInput","t":8,"sn":"FormatInput","rt":$n[1].Void},{"v":true,"a":3,"n":"HandleInput","t":8,"pi":[{"n":"magnitude","pt":$n[1].Single,"ps":0},{"n":"normalised","pt":$n[0].Vector2,"ps":1},{"n":"radius","pt":$n[0].Vector2,"ps":2},{"n":"cam","pt":$n[0].Camera,"ps":3}],"sn":"HandleInput","rt":$n[1].Void,"p":[$n[1].Single,$n[0].Vector2,$n[0].Vector2,$n[0].Camera]},{"v":true,"a":2,"n":"OnDrag","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnDrag","rt":$n[1].Void,"p":[$n[3].PointerEventData]},{"v":true,"a":2,"n":"OnPointerDown","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnPointerDown","rt":$n[1].Void,"p":[$n[3].PointerEventData]},{"v":true,"a":2,"n":"OnPointerUp","t":8,"pi":[{"n":"eventData","pt":$n[3].PointerEventData,"ps":0}],"sn":"OnPointerUp","rt":$n[1].Void,"p":[$n[3].PointerEventData]},{"a":3,"n":"ScreenPointToAnchoredPosition","t":8,"pi":[{"n":"screenPosition","pt":$n[0].Vector2,"ps":0}],"sn":"ScreenPointToAnchoredPosition","rt":$n[0].Vector2,"p":[$n[0].Vector2]},{"a":1,"n":"SnapFloat","t":8,"pi":[{"n":"value","pt":$n[1].Single,"ps":0},{"n":"snapAxis","pt":AxisOptions,"ps":1}],"sn":"SnapFloat","rt":$n[1].Single,"p":[$n[1].Single,AxisOptions],"box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"v":true,"a":3,"n":"Start","t":8,"sn":"Start","rt":$n[1].Void},{"a":2,"n":"AxisOptions","t":16,"rt":AxisOptions,"g":{"a":2,"n":"get_AxisOptions","t":8,"rt":AxisOptions,"fg":"AxisOptions","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},"s":{"a":2,"n":"set_AxisOptions","t":8,"p":[AxisOptions],"rt":$n[1].Void,"fs":"AxisOptions"},"fn":"AxisOptions"},{"a":2,"n":"DeadZone","t":16,"rt":$n[1].Single,"g":{"a":2,"n":"get_DeadZone","t":8,"rt":$n[1].Single,"fg":"DeadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_DeadZone","t":8,"p":[$n[1].Single],"rt":$n[1].Void,"fs":"DeadZone"},"fn":"DeadZone"},{"a":2,"n":"Direction","t":16,"rt":$n[0].Vector2,"g":{"a":2,"n":"get_Direction","t":8,"rt":$n[0].Vector2,"fg":"Direction"},"fn":"Direction"},{"a":2,"n":"HandleRange","t":16,"rt":$n[1].Single,"g":{"a":2,"n":"get_HandleRange","t":8,"rt":$n[1].Single,"fg":"HandleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"s":{"a":2,"n":"set_HandleRange","t":8,"p":[$n[1].Single],"rt":$n[1].Void,"fs":"HandleRange"},"fn":"HandleRange"},{"a":2,"n":"Horizontal","t":16,"rt":$n[1].Single,"g":{"a":2,"n":"get_Horizontal","t":8,"rt":$n[1].Single,"fg":"Horizontal","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Horizontal"},{"a":2,"n":"SnapX","t":16,"rt":$n[1].Boolean,"g":{"a":2,"n":"get_SnapX","t":8,"rt":$n[1].Boolean,"fg":"SnapX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_SnapX","t":8,"p":[$n[1].Boolean],"rt":$n[1].Void,"fs":"SnapX"},"fn":"SnapX"},{"a":2,"n":"SnapY","t":16,"rt":$n[1].Boolean,"g":{"a":2,"n":"get_SnapY","t":8,"rt":$n[1].Boolean,"fg":"SnapY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},"s":{"a":2,"n":"set_SnapY","t":8,"p":[$n[1].Boolean],"rt":$n[1].Void,"fs":"SnapY"},"fn":"SnapY"},{"a":2,"n":"Vertical","t":16,"rt":$n[1].Single,"g":{"a":2,"n":"get_Vertical","t":8,"rt":$n[1].Single,"fg":"Vertical","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},"fn":"Vertical"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"axisOptions","t":4,"rt":AxisOptions,"sn":"axisOptions","box":function ($v) { return Bridge.box($v, AxisOptions, System.Enum.toStringFn(AxisOptions));}},{"a":2,"n":"background","t":4,"rt":$n[0].RectTransform,"sn":"background"},{"a":1,"n":"baseRect","t":4,"rt":$n[0].RectTransform,"sn":"baseRect"},{"a":1,"n":"cam","t":4,"rt":$n[0].Camera,"sn":"cam"},{"a":1,"n":"canvas","t":4,"rt":$n[0].Canvas,"sn":"canvas"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"deadZone","t":4,"rt":$n[1].Single,"sn":"deadZone","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"handleObj","t":4,"rt":$n[0].GameObject,"sn":"handleObj"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"handleRange","t":4,"rt":$n[1].Single,"sn":"handleRange","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"handleTranf","t":4,"rt":$n[0].RectTransform,"sn":"handleTranf"},{"a":1,"n":"input","t":4,"rt":$n[0].Vector2,"sn":"input"},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"snapX","t":4,"rt":$n[1].Boolean,"sn":"snapX","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}},{"at":[new UnityEngine.SerializeFieldAttribute()],"a":1,"n":"snapY","t":4,"rt":$n[1].Boolean,"sn":"snapY","box":function ($v) { return Bridge.box($v, System.Boolean, System.Boolean.toString);}}]}; }, $n);
     /*Joystick end.*/
-
-    /*JoystickPlayerExample start.*/
-    $m("JoystickPlayerExample", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"FixedUpdate","t":8,"sn":"FixedUpdate","rt":$n[1].Void},{"a":2,"n":"rb","t":4,"rt":$n[0].Rigidbody,"sn":"rb"},{"a":2,"n":"speed","t":4,"rt":$n[1].Single,"sn":"speed","box":function ($v) { return Bridge.box($v, System.Single, System.Single.format, System.Single.getHashCode);}},{"a":2,"n":"variableJoystick","t":4,"rt":VariableJoystick,"sn":"variableJoystick"}]}; }, $n);
-    /*JoystickPlayerExample end.*/
-
-    /*JoystickSetterExample start.*/
-    $m("JoystickSetterExample", function () { return {"att":1048577,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"AxisChanged","t":8,"pi":[{"n":"index","pt":$n[1].Int32,"ps":0}],"sn":"AxisChanged","rt":$n[1].Void,"p":[$n[1].Int32]},{"a":2,"n":"ModeChanged","t":8,"pi":[{"n":"index","pt":$n[1].Int32,"ps":0}],"sn":"ModeChanged","rt":$n[1].Void,"p":[$n[1].Int32]},{"a":2,"n":"SnapX","t":8,"pi":[{"n":"value","pt":$n[1].Boolean,"ps":0}],"sn":"SnapX","rt":$n[1].Void,"p":[$n[1].Boolean]},{"a":2,"n":"SnapY","t":8,"pi":[{"n":"value","pt":$n[1].Boolean,"ps":0}],"sn":"SnapY","rt":$n[1].Void,"p":[$n[1].Boolean]},{"a":1,"n":"Update","t":8,"sn":"Update","rt":$n[1].Void},{"a":2,"n":"axisSprites","t":4,"rt":System.Array.type(UnityEngine.Sprite),"sn":"axisSprites"},{"a":2,"n":"background","t":4,"rt":$n[4].Image,"sn":"background"},{"a":2,"n":"valueText","t":4,"rt":$n[4].Text,"sn":"valueText"},{"a":2,"n":"variableJoystick","t":4,"rt":VariableJoystick,"sn":"variableJoystick"}]}; }, $n);
-    /*JoystickSetterExample end.*/
 
     /*JoystickType start.*/
     $m("JoystickType", function () { return {"att":257,"a":2,"m":[{"a":2,"isSynthetic":true,"n":".ctor","t":1,"sn":"ctor"},{"a":2,"n":"Dynamic","is":true,"t":4,"rt":JoystickType,"sn":"Dynamic","box":function ($v) { return Bridge.box($v, JoystickType, System.Enum.toStringFn(JoystickType));}},{"a":2,"n":"Fixed","is":true,"t":4,"rt":JoystickType,"sn":"Fixed","box":function ($v) { return Bridge.box($v, JoystickType, System.Enum.toStringFn(JoystickType));}},{"a":2,"n":"Floating","is":true,"t":4,"rt":JoystickType,"sn":"Floating","box":function ($v) { return Bridge.box($v, JoystickType, System.Enum.toStringFn(JoystickType));}}]}; }, $n);

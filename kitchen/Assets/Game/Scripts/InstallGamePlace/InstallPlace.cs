@@ -5,7 +5,10 @@ public class InstallPlace : MonoBehaviour, IPlaceInteractable
 
     public void PreInteract(CharacterBehaviour characterController)
     {
-        EndCard.instance.ShowEndCard();
+        /*EndCard.instance.ShowEndCard();*/
+        
+        Luna.Unity.LifeCycle.GameEnded();
+        Luna.Unity.Playable.InstallFullGame();
     }
     
     

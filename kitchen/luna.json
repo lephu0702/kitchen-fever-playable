@@ -70,7 +70,7 @@
         "packages": {
             "default": {
                 "applicationName": "Kitchen Fever: Food Tycoon",
-                "orientation": "portrait",
+                "orientation": "unspecified",
                 "languages": [
                     "en"
                 ]
