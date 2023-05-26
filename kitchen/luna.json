@@ -2,7 +2,7 @@
     "version": "5.0.0",
     "projectId": "c85fe916-4d5f-4a89-9f75-85dcdadecb7f",
     "applicationID": 16203,
-    "creativeName": "kitchen-tempura",
+    "creativeName": "CTA-kitchen-egg-new-floor",
     "pgServer": "EU",
     "window": {
         "​⁑": true
@@ -70,7 +70,7 @@
         "packages": {
             "default": {
                 "applicationName": "Kitchen Fever: Food Tycoon",
-                "orientation": "portrait",
+                "orientation": "unspecified",
                 "languages": [
                     "en"
                 ]

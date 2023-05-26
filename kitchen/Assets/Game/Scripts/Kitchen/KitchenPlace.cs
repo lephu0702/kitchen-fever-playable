@@ -89,14 +89,14 @@ public class KitchenPlace : MonoBehaviour, IPlaceInteractable
         cookAnim.Play(keyAnimCook, 0, 0);
         characterController.characterAnimator.PlayCook();
         DOVirtual.DelayedCall(timeCook, () => CookComplete(characterController));
-        sound.PlayOneShot(clip);
+        //sound.PlayOneShot(clip);
     }
     
     private void CookComplete(CharacterBehaviour characterController)
     {
         isCooking = false;
         
-        sound.Pause();
+        //sound.Pause();
         cookAnim.gameObject.SetActive(false);
         var f = Instantiate(foodProduct, foodSpawnPos.position, foodSpawnPos.rotation);
         stackOutput.Add(f);
