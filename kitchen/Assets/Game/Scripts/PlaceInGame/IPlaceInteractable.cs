@@ -1,14 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public interface IPlaceInteractable
 {
-    public void PreInteract(CharacterBehaviour characterController);
+    void PreInteract(CharacterBehaviour characterController);
 
-    public void OnInteract(CharacterBehaviour characterController);
+    void OnInteract(CharacterBehaviour characterController);
 
-    public void PostInteract(CharacterBehaviour characterController);
-    
-    public GameObject GetGameObject();
+    void PostInteract(CharacterBehaviour characterController);
+
+    GameObject GetGameObject();
 }
