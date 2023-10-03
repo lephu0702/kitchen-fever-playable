@@ -1,11 +1,11 @@
 {
-    "version": "5.0.0",
+    "version": "5.2.0",
     "projectId": "c85fe916-4d5f-4a89-9f75-85dcdadecb7f",
     "applicationID": 16203,
     "creativeName": "kitchen-egg-new-floor-CTA",
     "pgServer": "EU",
     "window": {
-        "​⁑": true
+        "​⁖": true
     },
     "unity": {
         "scripts": {
@@ -18,12 +18,15 @@
             "externalSources": [],
             "externalJSLibraries": [],
             "scriptingDefines": [],
-            "msbuildVersion": "17.5",
-            "monoVersion": "N/A",
-            "dotnetVersion": "7.0.203"
+            "msbuildVersion": "16.10",
+            "monoVersion": "6.12.0.182",
+            "dotnetVersion": "7.0.401"
         },
         "assets": {
-            "export": [],
+            "export": [
+                "resources",
+                "streamingAssets"
+            ],
             "excludes": [
                 "**/Editor/"
             ],
@@ -95,7 +98,7 @@
             "backgroundHexColor": "#000000"
         },
         "enableRealtimeShadows": false,
-        "enableLunaCompilerV2": true,
+        "enableLunaCompilerV2": false,
         "minify": true,
         "forceUncompressed": false,
         "forceBase64": false,
@@ -960,10 +963,6 @@
                 "excluded": true
             },
             {
-                "name": "System.Collections.Hashtable.HashHelpers",
-                "excluded": true
-            },
-            {
                 "name": "System.Collections.Hashtable.HashtableEnumerator",
                 "excluded": true
             },
@@ -1309,10 +1308,6 @@
             },
             {
                 "name": "UnityEngine.ControllerColliderHit",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.DefaultExecutionOrderAttribute",
                 "excluded": true
             },
             {
@@ -3133,7 +3128,7 @@
             },
             {
                 "name": "UnityEngine.Scripting.PreserveAttribute",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.RuntimePlatform",
@@ -5516,14 +5511,6 @@
                 "excluded": false
             },
             {
-                "name": "JoystickPlayerExample",
-                "excluded": true
-            },
-            {
-                "name": "JoystickSetterExample",
-                "excluded": true
-            },
-            {
                 "name": "FloatingJoystick",
                 "excluded": true
             },
@@ -5910,6 +5897,1774 @@
             {
                 "name": "DinnerTableSlot",
                 "excluded": true
+            },
+            {
+                "name": "UnityEngine.DefaultExecutionOrder",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Skybox",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AI.NavMeshBuildDebugFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AI.NavMeshBuildSourceShape",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AI.NavMeshCollectGeometry",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AI.NavMeshObstacleShape",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AI.NavMeshPathStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AI.ObstacleAvoidanceType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AI.OffMeshLinkType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Analytics.AnalyticsEventPriority",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Analytics.AnalyticsResult",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Analytics.AnalyticsSessionState",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Analytics.Gender",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Android.AndroidAssetPackError",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Android.AndroidAssetPackStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Android.AndroidHardwareType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AnimationBlendMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AnimationCullingType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AnimationEventSource",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AnimationPlayMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Animations.AnimatorBindingsVersion",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Animations.Axis",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Animations.BindType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Animations.CustomStreamPropertyType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Animations.JobMethodIndex",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AnimatorCullingMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AnimatorRecorderMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Apple.FrameCaptureDestination",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ApplicationSandboxType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ArmDof",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ArticulationDofLock",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ArticulationJointType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AssetBundleLoadResult",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Audio.AudioMixerUpdateMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AudioClipLoadType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AudioCompressionFormat",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AudioDataLoadState",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AudioReverbPreset",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AudioSourceCurveType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AudioSpeakerMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AudioType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AudioVelocityUpdateMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AvatarIKGoal",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AvatarIKHint",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AvatarMaskBodyPart",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.AvatarTarget",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Bindings.CodegenOptions",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Bindings.PreventExecutionSeverity",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Bindings.StaticAccessorType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Bindings.TargetType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.BlendWeights",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.BodyDof",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CalendarIdentifier",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CalendarUnit",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CameraType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ClusterInputType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ColliderErrorState2D",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ColorGamut",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CompressionLevel",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CompressionType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ComputeBufferMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ConnectionTesterStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CullingQueryOptions",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CustomRenderTextureInitializationSource",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CustomRenderTextureUpdateMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.CustomRenderTextureUpdateZoneSpace",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.D3DHDRDisplayBitDepth",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.DetailRenderMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.DeviceOrientation",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Diagnostics.ForcedCrashCategory",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.DisableBatchingType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Dof",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.DurationUnit",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.EffectorForceMode2D",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.EffectorSelection2D",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.EnabledOrientation",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.EventSystems.EventHandle",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.AI.NavMeshPolyTypes",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.AI.PathQueryStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.Animations.AnimationStreamSource",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.GlobalIllumination.AngularFalloffType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.GlobalIllumination.FalloffType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.GlobalIllumination.LightMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.GlobalIllumination.LightType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.Rendering.GraphicsJobsSyncPoint",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.Rendering.RayTracingMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.Rendering.TextureCreationFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.Rendering.WaitForPresentSyncPoint",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Experimental.XR.DeleteMe",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.FFTWindow",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.FingerDof",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.FocusType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.FullScreenMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.GamepadSpeakerOutputType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.HDRDisplaySupportFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.HeadDof",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.HumanParameter",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.HumanPartDof",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ImagePosition",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.IO.ThreadIORestrictionMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iOS.CalendarIdentifier",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iOS.CalendarUnit",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iOS.DeviceGeneration",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iOS.NotificationType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iOS.SystemGestureDeferMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iOSActivityIndicatorStyle",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iPhoneGeneration",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iPhoneKeyboardType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iPhoneMovieControlMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iPhoneMovieScalingMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iPhoneNetworkReachability",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iPhoneOrientation",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iPhoneScreenOrientation",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.iPhoneTouchPhase",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.JointDriveMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.JointProjectionMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LegDof",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LightmapCompression",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LightmappingMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LightmapsModeLegacy",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LightShadowCasterMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LightShape",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LocationServiceStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LODFadeMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.LogOption",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.MasterServerEvent",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.MaterialGlobalIlluminationFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.MeshColliderCookingOptions",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NetworkConnectionError",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NetworkDisconnection",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.ConnectionAcksType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.NetworkError",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.NetworkEventType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.PlayerConnection.ConnectionTarget",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.QosType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.ReactorModel",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.Types.HostPriority",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.Types.NetworkAccessLevel",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Networking.Types.NodeID",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NetworkLogLevel",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NetworkPeerType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NetworkStateSynchronization",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NVIDIA.DLSSFeatureFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NVIDIA.DLSSQuality",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NVIDIA.GraphicsDeviceFeature",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.NVIDIA.PluginEvent",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemAnimationRowMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemAnimationTimeMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemColliderQueryMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemCollisionMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemCollisionQuality",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemCollisionType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemCullingMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemCustomData",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemCustomDataMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemEmissionType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemForceFieldShape",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemGameObjectFilter",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemMeshDistribution",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemOverlapAction",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemRingBufferMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemShapeTextureChannel",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemSubEmitterProperties",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemSubEmitterType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemTrailMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemTrailTextureMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemTriggerEventType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemVertexStream",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ParticleSystemVertexStreams",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.PhysicsShapeType2D",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.PlatformSelection",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Playables.DataStreamType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Playables.DirectorUpdateMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Playables.DirectorWrapMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Playables.PlayableTraversalMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.PlayMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.PointerType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ProceduralCacheSize",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ProceduralLoadingBehavior",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ProceduralOutputType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ProceduralProcessorUsage",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ProceduralPropertyType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Profiling.Memory.Experimental.CaptureFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Profiling.ProfilerArea",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.QualityLevel",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.QueueMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ReceiveGI",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.RemoteNotificationType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.BuiltinRenderTextureType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.BuiltinShaderDefine",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.BuiltinShaderMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.BuiltinShaderType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.CameraEvent",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.CameraHDRMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.CameraLateLatchMatrixType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.CommandBufferExecutionFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ComputeQueueType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.CullingOptions",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.DistanceMetric",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.DrawRendererFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.FastMemoryFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.FormatSwizzle",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.GizmoSubset",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.GraphicsFenceType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.GraphicsTier",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.LightEvent",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.MeshUpdateFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.OpaqueSortMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.OpenGLESVersion",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.PerObjectData",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.RealtimeGICPUUsage",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ReflectionCubemapCompression",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ReflectionProbeSortingCriteria",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ReflectionProbeType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.RendererUtils.RendererListStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.RenderQueue",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.RenderStateMask",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.RenderTargetFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.RenderTextureSubElement",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.RTClearFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ShaderConstantType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ShaderHardwareTier",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ShaderKeywordType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ShaderParamType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ShaderPropertyFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ShaderPropertyType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ShadowMapPass",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.ShadowSamplingMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.SinglePassStereoMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.SortingCriteria",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.SynchronisationStage",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.SynchronisationStageFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.TextureDimension",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.UVChannelFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.VertexAttribute",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.VideoShadersIncludeMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.VirtualTexturing.FilterMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Rendering.VisibleLightFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.RenderingPath",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.RenderTextureCreationFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.RenderTextureMemoryless",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.RigidbodyInterpolation2D",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.RotationOrder",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.RPCMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SceneManagement.LocalPhysicsMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SceneManagement.UnloadSceneOptions",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Search.SearchViewFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ShadowObjectsFilter",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SimulationMode2D",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SkinQuality",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SkinWeights",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SnapAxis",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SocialPlatforms.TimeScope",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SocialPlatforms.UserScope",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SocialPlatforms.UserState",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.SpriteAlignment",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.StateInfoIndex",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.StereoTargetEyeMask",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TerrainChangedFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TerrainHeightmapSyncControl",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TerrainRenderFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TerrainTools.TerrainBuiltinPaintMaterialPasses",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TerrainUtils.TerrainMapStatusCode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TestTools.TestPlatform",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TexGenMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextClipping",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.AtlasPopulationMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.ColorGradientMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.FontStyles",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.HorizontalAlignment",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.MarkupTag",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.TagUnitType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.TagValueType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.TextAlignment",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.TextElementType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.TextFontWeight",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.TextOverflowMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.TextureMapping",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.VertexSortingOrder",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextCore.Text.VerticalAlignment",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TextGenerationError",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.ThreadPriority",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Tilemaps.TileFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Timeline.AppliedOffsetMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Timeline.ClipCaps",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Timeline.MatchTargetFields",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Timeline.NotificationFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Timeline.StandardFrameRates",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Timeline.TrackOffset",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TransitionType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.TransparencySortMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.tvOS.DeviceGeneration",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.U2D.Light2DType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.U2D.SpriteShapeDataType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.AddressMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.Align",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.AlternatingRowBackground",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.AngleUnit",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.CallbackPhase",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.CollectionVirtualizationMethod",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.ContextType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.DispatchMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.DisplayStyle",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.DragAndDropPosition",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.DragVisualMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.DynamicAtlasFilters",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.DynamicAtlasFiltersInternal",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.EasingMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.FlexDirection",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.GradientType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.HelpBoxMessageType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.HierarchyChangeType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.InvokePolicy",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.Justify",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.KeyboardNavigationOperation",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.LengthUnit",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.ListViewReorderMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.MouseButton",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.Overflow",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.OverflowClipBox",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.OverflowInternal",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.PanelClearFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.PanelScaleMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.PanelScreenMatchMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.PickingMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.Position",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.PropagationPhase",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.PseudoStates",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.RenderHints",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.ScrollerVisibility",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.ScrollViewMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.SelectionType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.SliderDirection",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleKeyword",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSelectorRelationship",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSelectorType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.MatchResultErrorCode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.StyleEnumType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.StylePropertyGroup",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.StylePropertyId",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.StyleValidationStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.Syntax.DataType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.Syntax.ExpressionCombinator",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplierType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.Syntax.ExpressionType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleValueFunction",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleValueKeyword",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.StyleValueType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.TextOverflow",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.TextOverflowPosition",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.TimeUnit",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.TransformOriginOffset",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.TrickleDown",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.TwoPaneSplitViewOrientation",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.UIR.CommandType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.UIR.Implementation.ClipMethod",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.UIR.OwnedState",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.UIR.RenderDataDirtyTypes",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.UIR.VertexFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.UsageHints",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.VersionChangeType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.Visibility",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.VisualElementFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.VisualTreeEditorUpdatePhase",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.VisualTreeUpdatePhase",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.WhiteSpace",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UIElements.Wrap",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.UserAuthorization",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXCameraBufferTypes",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXCullingFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXExpressionOperation",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXMainCameraBufferFallback",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXSpawnerLoopState",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXSystemFlag",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXSystemType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXTaskType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXUpdateMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VFX.VFXValueType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Video.Video3DLayout",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Video.VideoAspectRatio",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Video.VideoAudioOutputMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Video.VideoTimeReference",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Video.VideoTimeSource",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.VRTextureUsage",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WebCamFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WebCamKind",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WeightedMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Windows.Speech.ConfidenceLevel",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Windows.Speech.DictationCompletionCause",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Windows.Speech.DictationTopicConstraint",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Windows.Speech.SpeechError",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Windows.Speech.SpeechSystemStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Windows.WebCam.CapturePixelFormat",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Windows.WebCam.PhotoCaptureFileOutputFormat",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Windows.WebCam.WebCamMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WindZoneMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WSA.Folder",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WSA.TileForegroundText",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WSA.TileTemplate",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WSA.ToastTemplate",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.WSA.WindowActivationState",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.AvailableTrackingData",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.ConnectionChangeType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.EyeSide",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.GameViewRenderMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.HandFinger",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.InputDeviceCharacteristics",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.InputDeviceRole",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.InputTrackingState",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.MeshChangeState",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.MeshGenerationOptions",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.MeshGenerationStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.MeshVertexAttributes",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.Tango.PoseStatus",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.TrackingOriginModeFlags",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.TrackingSpaceType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.WSA.Input.DeleteMe",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.WSA.RemoteDeviceVersion",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.XR.XRNode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaAlign",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaDimension",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaDirection",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaDisplay",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaEdge",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaExperimentalFeature",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaFlexDirection",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaJustify",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaLogLevel",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaMeasureMode",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaNodeType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaOverflow",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaPositionType",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaPrintOptions",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaUnit",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Yoga.YogaWrap",
+                "excluded": true
+            },
+            {
+                "name": "Luna.Unity.DTO.UnityEngine.Components.Skybox",
+                "excluded": true
+            },
+            {
+                "name": "UnityEngine.Events.PersistentListenerMode",
+                "excluded": false
+            },
+            {
+                "name": "UnityEngine.Events.UnityEventCallState",
+                "excluded": false
             }
         ],
         "unusedMethods": [
@@ -13772,6 +15527,58 @@
                     {
                         "name": "SetActiveFixedTime",
                         "excluded": false
+                    },
+                    {
+                        "name": "timeAsDouble#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "unscaledTimeAsDouble#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fixedTimeAsDouble#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "realtimeSinceStartupAsDouble#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "timeSinceLevelLoadAsDouble#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "renderedFrameCount#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "captureDeltaTime#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "captureDeltaTime#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "captureFramerate#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "captureFramerate#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fixedUnscaledTime#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fixedUnscaledTimeAsDouble#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "FixedUpdate",
+                        "excluded": false
                     }
                 ]
             },
@@ -14667,6 +16474,10 @@
                     },
                     {
                         "name": "ComputeCRC",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsKeywordEnabled",
                         "excluded": true
                     }
                 ]
@@ -15630,6 +17441,14 @@
                     {
                         "name": "ctor",
                         "excluded": false
+                    },
+                    {
+                        "name": "shadows#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "shadows#set",
+                        "excluded": true
                     }
                 ]
             },
@@ -17515,7 +19334,7 @@
                     },
                     {
                         "name": "OnRectTransformDimensionsChange",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetGenerationSettings",
@@ -30012,6 +31831,24 @@
                     {
                         "name": "Init",
                         "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "EndCard",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Start",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ShowEndCard",
+                        "excluded": true
+                    },
+                    {
+                        "name": "InstallApp",
+                        "excluded": true
                     }
                 ]
             }
